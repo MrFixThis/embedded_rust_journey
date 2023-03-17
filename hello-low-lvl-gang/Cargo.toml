@@ -1,0 +1,18 @@
+[package]
+name = "hello-low-lvl-gang"
+version = "0.1.0"
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "hello-low-lvl-gang"
+test = false
+bench = false
+
+[dependencies]
+panic-halt.workspace = true
+ufmt.workspace = true
+nb.workspace = true
+embedded-hal.workspace = true
+arduino-hal.workspace = true
