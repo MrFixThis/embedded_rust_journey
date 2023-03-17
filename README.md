@@ -17,7 +17,7 @@ provided by the the dependency mentioned above, same that is the base of all
 the crates listed in this workspace.
 
 ## Tools
-The main and the most important tool that i use to have a fluid workflow developing
+The main and the most important tool that I use to have a fluid workflow developing
 embedded code is [ravedude](https://github.com/Rahix/avr-hal/tree/main/ravedude):
 a cargo runner that wraps the capabilities of `avrdude`, these like the direct
 access to the target board's serial console.
