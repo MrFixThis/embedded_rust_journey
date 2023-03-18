@@ -1,0 +1,19 @@
+[package]
+name = "seven_seg"
+version = "0.1.0"
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "seven_seg"
+test = false
+bench = false
+
+[dependencies]
+seven_segment = "0.2.1"
+panic-halt.workspace = true
+ufmt.workspace = true
+nb.workspace = true
+embedded-hal.workspace = true
+arduino-hal.workspace = true
